@@ -1,3 +1,30 @@
-.barra{
-    background-color: black;
+.barra {
+  background-color: #fad27d;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 45px;
+  position: absolute;
+  box-shadow: 0 0 5px #4b3e23;
+}
+
+.titulo {
+  font-family: Tahoma;
+  font-size: 32px;
+  color: #4b3e23;
+  display: flex;
+  margin-top: -15px;
+  margin-right: 50px;
+  justify-content: center;
+  font-weight: 1000;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imagemLogo{
+  height: 40px;
+  margin: 3px;
+  border-radius: 15px;
+//alterável, mas por enquanto deixo assim
+
 }
