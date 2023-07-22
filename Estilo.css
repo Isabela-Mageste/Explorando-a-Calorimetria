@@ -9,6 +9,7 @@
   box-shadow: 0 0 5px #4b3e23;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .barra p {
   /*
@@ -45,7 +46,7 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .imagemLogo {
-
+  height: 3vw;
   margin: 3px;
   border-radius: 15px;
 }
