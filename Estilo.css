@@ -12,10 +12,6 @@
   align-items: center;
 }
 .barra p {
-  /*
-  tá com erro, o título fica fora da barra e eu não descobri como consertar ainda
-  ele fica abaixo do local certo 
-  */
   font-family: Tahoma;
   font-size: 2vw;
   color: #4b3e23;
@@ -31,19 +27,15 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2vw;
   font-weight: 600;
-  color:mediumblue;
+  color: mediumblue;
   border-radius: 2vw;
   padding: 0 2vw;
   text-decoration: none;
 }
 
 .botoes a:hover {
-  color:red;
-  transition: 0.5s linear;
-}
-
-p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  transition: 0.7s linear;
 }
 .imagemLogo {
   height: 3vw;
