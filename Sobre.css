@@ -49,12 +49,12 @@
   border-radius: 25px;
 }
 
-.quiz-body {
+.texto-boas-vindas {
   background-color: #fff3da;
   align-items: center;
 }
 
-.quiz-body button {
+.texto-boas-vindas button {
   background-color: #fad27d;
   font-size: 1.2vw;
   font-weight: 500;
@@ -65,20 +65,20 @@
   float: right;
   transition: 0.3s linear;
 }
-.quiz-body button:hover {
+.texto-boas-vindas button:hover {
   background-color: #fad27d;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-shadow: 0 0 10px #f55617;
   transition: 0.3s linear;
 }
-.quiz-body p {
+.texto-boas-vindas p {
   font-size: 1.2vw;
 }
-.quiz-body a {
+.texto-boas-vindas a {
   color: midnightblue;
   text-decoration: none;
 }
-.quiz-body a:hover {
+.texto-boas-vindas a:hover {
   color: red;
   transition: 0.3s linear;
 }
