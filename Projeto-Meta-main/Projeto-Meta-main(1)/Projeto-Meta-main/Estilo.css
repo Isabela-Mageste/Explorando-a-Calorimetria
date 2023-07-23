@@ -49,8 +49,8 @@
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
   position: relative;
-  right: 359px;
-  top: 200px;
+  right: 420px;
+  top: 140px;
   text-transform: uppercase;
   background: linear-gradient(45deg,  rgb(255, 96, 22),rgb(255, 133, 76),rgb(255, 154, 107), rgb(255, 96, 22) );
   background-size: 400% 100%;
@@ -64,7 +64,7 @@
   font-family: 'Poppins', sans-serif;
   position: relative;
   right: -2.5cm;
-  top: 44cm;
+  top: 40cm;
   text-transform: uppercase;
   background: linear-gradient(45deg,  rgb(255, 96, 22),rgb(255, 133, 76),rgb(255, 154, 107), rgb(255, 96, 22) );
   background-size: 400% 100%;
@@ -94,10 +94,19 @@ span{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 19px;
   position: relative;
-  right: 21cm;
-  top: 21cm;
+  right: 860px;
+  top: 720px;
   text-align: justify;
-  width:100%;
+}
+
+.texto-ident-1{
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+  position: relative;
+  right: 7px;
+  top: 10px;
+  text-align: justify;
 }
 
 .formula-block {
@@ -115,27 +124,7 @@ span{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 19px;
   position: relative;
-  right: -3.5cm;
-  top: 1650px;
+  right: -2.5cm;
+  top: 1500px;
   width: 30%;
-}
-
-.container {
-  display: flex;
-}
-
-.video-container {
-  flex: 1;
-  margin-right: 20px;
-}
-
-.simulation-container {
-  width: 400px; /* Defina a largura do contêiner do iframe aqui */
-  height: 300px; /* Defina a altura do contêiner do iframe aqui */
-  margin: 1300px 3.3cm; 
-}
-
-.video-container iframe {
-  margin-top: 5cm; 
-  margin-left: 20cm;
 }
