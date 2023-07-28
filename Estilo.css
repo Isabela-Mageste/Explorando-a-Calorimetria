@@ -11,12 +11,14 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .barra p {
   font-family: Tahoma;
   font-size: 2vw;
   color: #4b3e23;
   font-weight: 600;
   padding: 0 2vw;
+
 }
 
 .botoes {
@@ -37,8 +39,13 @@
   color: red;
   transition: 0.7s linear;
 }
+
 .imagemLogo {
   height: 3vw;
   margin: 3px;
   border-radius: 15px;
+}
+
+p {
+  text-align: justify;
 }

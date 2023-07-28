@@ -51,11 +51,11 @@
     width: 100%;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    right: 9.5cm;
+    right: 2.5cm;
     top: 6cm;
     text-transform: uppercase;
     background: linear-gradient(45deg,  rgb(255, 96, 22),rgb(255, 133, 76),rgb(255, 154, 107), rgb(255, 96, 22) );
-    background-size: 400% 100%;
+    background-size: 500% 100%;
     animation: degradeExperimentos 10s linear infinite alternate;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,7 +107,7 @@
     right: 21cm;
     top: 22cm;
     text-align: justify;
-    width:90%;
+    width: 60%;
   }
   
   .texto-ident-2{
