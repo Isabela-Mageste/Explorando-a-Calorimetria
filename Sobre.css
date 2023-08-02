@@ -1,27 +1,31 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
 }
 .conteudo {
   position: absolute;
   transform: translate(-15%, -50%);
   top: 50%;
   left: 50%;
+  top: 25vw;
+  left: 50vw;
 }
 .conteudo p {
   font-size: 1.2vw;
   font-weight: 200;
 }
 .conteudo img {
-  height: 12.5vw;
-  width: 20vw;
+  height: 16vw;
+  width: 32vw;
   text-align: center;
+  border-radius:15px;
 }
 .figura {
-  width: 35vw;
-  height: 35vw;
-  position: absolute;
-  top: 4vw;
-  left: 3vw;
+  min-width: 35vw;
+  max-height: 35vw;
+  top: 25vw;
+  left: 30vw;
+  margin: 3vw;
 }
 .header {
   font-size: 1.7vw;
