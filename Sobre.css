@@ -1,6 +1,6 @@
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: justify;
+  text-indent: 2em;
 }
 .conteudo {
   position: absolute;
@@ -9,6 +9,7 @@
   left: 50%;
   top: 25vw;
   left: 50vw;
+  text-align: justify;
 }
 .conteudo p {
   font-size: 1.2vw;
