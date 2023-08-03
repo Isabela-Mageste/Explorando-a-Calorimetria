@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 3vw;
+  height: 5vw;
   width: 100%;
   position: absolute;
   box-shadow: 0 0 5px #4b3e23;
@@ -18,7 +18,7 @@
   color: #4b3e23;
   font-weight: 600;
   padding: 0 2vw;
-
+  text-align: justify;
 }
 
 .botoes {
@@ -41,11 +41,8 @@
 }
 
 .imagemLogo {
-  height: 3vw;
+  min-height: 2vw;
+  max-height: 4vw;
   margin: 3px;
-  border-radius: 15px;
-}
-
-p {
-  text-align: justify;
+  border-radius: 100px;
 }
