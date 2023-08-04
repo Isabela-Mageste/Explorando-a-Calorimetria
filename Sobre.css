@@ -1,57 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-indent: 2em;
 }
-.conteudo {
-  position: absolute;
-  transform: translate(-15%, -50%);
-  top: 50%;
-  left: 50%;
-  top: 25vw;
-  left: 50vw;
-  text-align: justify;
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.conteudo p {
-  font-size: 1.2vw;
+
+.header p {
+  font-size: 1.3vw;
+  font-weight: 400;
+  background: linear-gradient(
+    45deg,
+    rgb(255, 91, 15),
+    rgb(247, 148, 103),
+    rgb(252, 190, 161),
+    rgb(255, 91, 15)
+  );
+  background-size: 500% 100%;
+  animation: degradeExperimentos 10s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.caixa p {
+  font-size: 1.4vw;
   font-weight: 200;
 }
-.conteudo img {
-  height: 16vw;
-  width: 32vw;
+.caixa img {
+  min-height: 16vh;
+  min-width: 32vw;
   text-align: center;
-  border-radius:15px;
-}
-.figura {
-  min-width: 35vw;
-  max-height: 35vw;
-  top: 25vw;
-  left: 30vw;
-  margin: 3vw;
+  border-radius: 15px;
 }
 .header {
   font-size: 1.7vw;
   font-weight: 600;
   text-align: center;
 }
-.botao button {
-  background-color: #fad27d;
-  font-size: 1.2vw;
+.caixa {
+  align-itens: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header p {
+  font-size: 1.3vw;
+  font-weight: 400;
+  background: linear-gradient(
+    45deg,
+    rgb(255, 91, 15),
+    rgb(247, 148, 103),
+    rgb(252, 190, 161),
+    rgb(255, 91, 15)
+  );
+  background-size: 500% 100%;
+  animation: degradeExperimentos 10s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Item-container {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  flex-direction: column;
+}
+.Item {
+  width: 70vw;
+  min-height: 22vw;
+  border-radius: 10px;
+  border-style: none;
+  border: green;
+}
+
+.Item h3 {
+  font-size: 1.8vw;
   font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Item p {
+  font-size: 1.4vw;
+}
+.Item li {
+  font-size: 1.4vw;
+}
+.titulo {
+  font-size: 3vw;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  margin: 4vw 0 0 0;
+  text-transform: uppercase;
+  background: linear-gradient(
+    45deg,
+    rgb(255, 91, 15),
+    rgb(247, 148, 103),
+    rgb(252, 190, 161),
+    rgb(255, 91, 15)
+  );
+
+  background-size: 500% 100%;
+  animation: degradeExperimentos 10s linear infinite alternate;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.formula-block {
+  background-color: #a8dd7c;
+  padding: 20px;
   border: none;
-  width: 10vw;
-  height: 3.5vw;
-  border-radius: 15px;
+  border-radius: 5px;
+  min-width: 10vw;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.8vw;
 }
-.botao button:hover {
-  background-color: #fad27d;
-  box-shadow: 0 0 10px #f55617;
-  transition: 0.3s linear;
-}
-.botao a {
-  color: midnightblue;
-  text-decoration: none;
-}
-.botao a:hover {
-  color: red;
-  transition: 0.3s linear;
+@keyframes degradeExperimentos {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
 }
