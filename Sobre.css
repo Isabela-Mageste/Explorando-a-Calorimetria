@@ -112,28 +112,12 @@
     rgb(247, 148, 103),
     rgb(252, 190, 161),
     rgb(255, 91, 15)
+    
   );
 
   background-size: 500% 100%;
   animation: degradeExperimentos 10s linear infinite alternate;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-.formula-block {
-  background-color: #a8dd7c;
-  padding: 20px;
-  border: none;
-  border-radius: 5px;
-  min-width: 10vw;
-  margin: 30px auto;
-  text-align: center;
-  font-size: 1.8vw;
-}
-@keyframes degradeExperimentos {
-  0% {
-    background-position-x: 0%;
-  }
-  100% {
-    background-position: 400%;
-  }
+  text-align:center;
 }
