@@ -1,28 +1,10 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+
 * {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-indent: 2em;
 }
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.caixa {
-  align-itens: center;
-}
-.caixa p {
-  font-size: 1.4vw;
-  font-weight: 200;
-}
-.caixa img {
-  min-height: 16vh;
-  min-width: 32vw;
-  text-align: center;
-  border-radius: 15px;
-}
+
 .header {
   font-size: 1.7vw;
   font-weight: 600;
@@ -32,6 +14,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .header p {
   font-size: 1.3vw;
   font-weight: 400;
@@ -40,35 +23,60 @@
     rgb(255, 91, 15),
     rgb(247, 148, 103),
     rgb(252, 190, 161),
-    rgb(255, 91, 15));
+    rgb(255, 91, 15)
+  );
   background-size: 500% 100%;
   animation: degradeExperimentos 10s linear infinite alternate;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.caixa {
+  align-items: center;
+}
+
+.caixa p {
+  font-size: 1.4vw;
+  font-weight: 200;
+}
+
+.caixa img {
+  min-height: 16vh;
+  min-width: 32vw;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+}
+
 .Item {
   width: 70vw;
   min-height: 22vw;
   border-radius: 10px;
   border-style: none;
   border: green;
+  display: flex; /* Add this to create a flex container */
+  flex-direction: column; /* Stack the image and text vertically */
+  align-items: center; /* Center items horizontally */
 }
+
 .Item-container {
   display: flex;
   justify-content: center;
-  text-align: justify;
   align-items: center;
   flex-direction: column;
 }
+
 .Item h3 {
   font-size: 1.8vw;
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
 }
+
 .Item p {
   font-size: 1.4vw;
 }
+
 .titulo {
   font-size: 3vw;
   font-family: "Poppins", sans-serif;
@@ -81,11 +89,10 @@
     rgb(247, 148, 103),
     rgb(252, 190, 161),
     rgb(255, 91, 15)
-    
   );
   background-size: 500% 100%;
   animation: degradeExperimentos 10s linear infinite alternate;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-align:center;
+  text-align: center;
 }
