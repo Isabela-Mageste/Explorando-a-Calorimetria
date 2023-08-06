@@ -6,6 +6,14 @@
       </div>
     </div>
 -->
+<!---
+      <div class="botoes">
+        <a href="/Index.html">Sobre o Projeto</a>
+        <a href="/Experimentos.html"> Experimentos </a>
+        <a href="/Simulador.html"> Simulador </a>
+      </div>
+    </div>
+-->
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -18,44 +26,46 @@
   </head>
   <body bgcolor="#FFF3DA">
     <div class="barra">
-      <img class="imagemLogo" src="Logo.jpg" alt="Logo" />
+      <img class="imagemLogo" src="Logo.png" alt="Logo" />
       <p>Nome do Site</p>
 
       <link rel="stylesheet" type="text/css" href="menu.css" />
-      <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-  
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      />
+
       <nav>
         <button class="btn-nav" id="btn"><i class="fas fa-bars"></i></button>
       </nav>
       <div class="menu hide" id="menu">
-      <ul>
-      <li>
-        <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
-      </li>
-  
-      <li>
-        <a href="Simulador.html"><i class="fas fa-info-circle"></i> Simulador</a>
-      </li>
-  
-      <li>
-        <a href="Experimentos.html"><i class="fa fa-envelope"></i> Experimento</a>
-      </li>
-  
-      <li>
-        <a href="Resumos.html"><i class="fa fa-sign-in-alt"></i> Resumos</a>
-      </li>
-  
-      </ul>
-      
-      </div> <script src="menu.js"></script>
+        <ul>
+          <li>
+            <a href="index.html"><i class="fas fa-home"></i> Inicio</a>
+          </li>
 
+          <li>
+            <a href="Simulador.html"
+              ><i class="fas fa-info-circle"></i> Simulador</a
+            >
+          </li>
+
+          <li>
+            <a href="Experimentos.html"
+              ><i class="fa fa-envelope"></i> Experimento</a
+            >
+          </li>
+
+          <li>
+            <a href="Resumos.html"><i class="fa fa-sign-in-alt"></i> Resumos</a>
+          </li>
+        </ul>
+      </div>
+      <script src="menu.js"></script>
     </div>
     <p></p>
     <div class="header">
-      <div class="titulo">
-        CALORIMETRIA
-      </div>
+      <div class="titulo">CALORIMETRIA</div>
       <p>Sarah Rabelo - Isabela Mageste</p>
     </div>
     <div class="Item-container">
@@ -75,40 +85,55 @@
         </div>
       </div>
 
-       <div class="Item">
-        <div class="Item-description">
-          <h3>Calor latente</h3>
-          <p>
-            Calor latente é a mudança de estado físico de uma substância quando
-            há troca de calor, em um processo de fornecimento de energia para um
-            corpo. Na Termologia, calor latente também é chamado de calor de
-            transformação. O calor latente é definido, também, como a relação da
-            quantidade de calor por massa.
-          </p>
-        </div>
-      </div>
-      
-      <div class="space"> 
-         <p> </p>
-      </div>
       <div class="Item">
-        <div class="Item-description">
-          <h3>O que é um calorímetro?</h3>
-          <p>
-            O Calorímetro é um objeto projetado para fornecer um isolamento
-            térmico perfeito de modo que não haja trocas de calor entre o que
-            está em seu interior e as vizinhanças. No entanto não existe um
-            calorímetro ideal a não deixar escapar nem permitir entrada de
-            calor, o que existe são dispositivos que minimizem ao máximo essas
-            perdas. Por exemplo, num calorímetro ideal quando preenchido com um
-            líquido, sólido ou gás a uma determinada temperatura não permitirá
-            que o calor escape, e o material permanecerá a mesma temperatura
-            indefinidamente. Um equipamento bastante conhecido e que satisfaz
-            razoavelmente essas características é o vaso de Dewar.
-          </p>
-        </div>
-         <img src="vasoDewar.png" alt="vaso de dewar" style="width: 25vw" />
+        <h3>Calor latente</h3>
+        <p>
+          Calor latente é a mudança de estado físico de uma substância quando há
+          troca de calor, em um processo de fornecimento de energia para um
+          corpo. Na Termologia, calor latente também é chamado de calor de
+          transformação. O calor latente é definido, também, como a relação da
+          quantidade de calor por massa.Para calcular o calor latente é
+          utilizada a fórmula:
+        </p>
+
+        <div class="formula-block">Q = m ° Cl</div>
+        <p>Onde,</p>
+        <ul>
+          <li>Q: quantidade de calor (cal ou J)</li>
+          <li>m: massa (g ou Kg)</li>
+          <li>Cl: calor latente (cal/g ou J/Kg)</li>
+        </ul>
+        <p>
+          No Sistema Internacional (SI), o calor latente é dado em J/Kg (Joule
+          por quilograma). Mas também é usual ser medido em cal/g (caloria por
+          grama).
+        </p>
+
+        <img
+          src="Calor-Latente-e-Especifico.PNG"
+          alt="Imagem de calor latente e específico"
+          style="max-width: 35vw; min-width: 25vw"
+        />
+      </div>
+
+      <div class="Item">
+        <h3>O que é um calorímetro?</h3>
+        <p>
+          O Calorímetro é um objeto projetado para fornecer um isolamento
+          térmico perfeito de modo que não haja trocas de calor entre o que está
+          em seu interior e as vizinhanças. No entanto não existe um calorímetro
+          ideal a não deixar escapar nem permitir entrada de calor, o que existe
+          são dispositivos que minimizem ao máximo essas perdas. Por exemplo,
+          num calorímetro ideal quando preenchido com um líquido, sólido ou gás
+          a uma determinada temperatura não permitirá que o calor escape, e o
+          material permanecerá a mesma temperatura indefinidamente. Um
+          equipamento bastante conhecido e que satisfaz razoavelmente essas
+          características é o vaso de Dewar.
+        </p>
+
+        <img src="vasoDewar.png" alt="vaso de dewar" style="max-width: 25vw" />
       </div>
     </div>
   </body>
 </html>
+
