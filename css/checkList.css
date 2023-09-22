@@ -1,0 +1,52 @@
+.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checklist li {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.checklist li input[type="checkbox"] {
+    margin-right: 10px;
+    display: none;
+}
+
+.checklist li label {
+    cursor: pointer;
+}
+
+/* Estilo para a caixa de seleção quando marcada */
+.checklist li input[type="checkbox"]:checked + label:before {
+    content: "\2713"; /* Símbolo de checkmark */
+    font-size: 18px;
+    color: green;
+}
+
+/* Animação ao marcar ou desmarcar a caixa de seleção */
+.checklist li input[type="checkbox"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.checklist li input[type="checkbox"]:checked + label:before {
+    background-color: #ccc;
+    border-color: #ccc;
+}
+.titulo{
+    font-size: 1.7vw;
+    font-weight: 600;
+    text-align: left;
+}
+.conteudo{
+    
+}
