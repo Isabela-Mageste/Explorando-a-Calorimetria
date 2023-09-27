@@ -9,7 +9,89 @@ body {
   background: url('/assets/fogueira.jpg');
   background-size: cover;
 }
+.header {body {
+  padding-top: 0vh;
+  margin: 0;  
+}
+#container-imagem {
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  background: url('/assets/fundo1.png');
+  background-size: cover;
+}
 .header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+.fundoFigura {
+  width: 35vw;
+  height: 35vw;
+  position: absolute;
+  transform: translate(-135%, -50%);
+  top: 50%;
+  left: 110%;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.41));
+}
+.header {
+  padding: 2.1vw;
+  font-size: 1.7vw;
+  font-weight: 600;
+  text-align: center;
+}
+.figura {
+  max-width: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  border-radius: 25px;
+}
+.conteudo {
+  width: 58vw;
+  height: 35vw;
+  position: absolute;
+  transform: translate(-15%, -50%);
+  top: 50%;
+  left: 10%;
+  margin: 30px auto;
+}
+.conteudo p {
+  font-family: Tahoma;
+  font-size: 2vw;
+  font-weight: 600;
+  padding: 0 2vw;
+  margin: 25% 0% 5% 0%;
+}
+.conteudo button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fad27d;
+  font-size: 1.9vw;
+  margin: 0% 50% 0% 50%;
+  font-weight: 500;
+  border: none;
+  width: 20vw;
+  height: 5.5vw;
+  border-radius: 35px;
+  position:absolute;
+  float: right;
+  transition: 0.3s linear;
+  left: -12vw;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.41));
+}
+.conteudo button:hover {
+  background-color: #fad27d;
+  box-shadow: 0 0 10px #f55617;
+  transition: 0.3s linear;
+}
+.conteudo a {
+  color: midnightblue;
+  text-decoration: none;
+}
+.conteudo a:hover {
+  color: red;
+  transition: 0.3s linear;
+}
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
 }
