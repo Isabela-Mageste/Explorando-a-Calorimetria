@@ -6,7 +6,7 @@ body {
   position: fixed;
   min-height: 100%;
   min-width: 100%;
-  background: url('/assets/fogueira.jpg');
+  background: url('/assets/fundo1.png');
   background-size: cover;
 }
 .header {
@@ -19,7 +19,8 @@ body {
   position: absolute;
   transform: translate(-135%, -50%);
   top: 50%;
-  left: 50%;
+  left: 110%;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.41));
 }
 .header {
   padding: 2.1vw;
@@ -41,7 +42,8 @@ body {
   position: absolute;
   transform: translate(-15%, -50%);
   top: 50%;
-  left: 50%;
+  left: 10%;
+  margin: 30px auto;
 }
 .conteudo p {
   font-family: Tahoma;
@@ -53,15 +55,18 @@ body {
 .conteudo button {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #fad27d;
-  font-size: 1.2vw;
+  font-size: 1.9vw;
   margin: 0% 50% 0% 50%;
   font-weight: 500;
   border: none;
-  width: 10vw;
-  height: 3.5vw;
-  border-radius: 15px;
+  width: 20vw;
+  height: 5.5vw;
+  border-radius: 35px;
+  position:absolute;
   float: right;
   transition: 0.3s linear;
+  left: -12vw;
+  filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.41));
 }
 .conteudo button:hover {
   background-color: #fad27d;
