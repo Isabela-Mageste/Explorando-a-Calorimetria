@@ -6,11 +6,11 @@
 body {
   padding-top: 5vh;
   margin: 0;
-  background-color:white;
 }
 
 .barra {
-  background-color: #fad27d;
+  background-image: url('/assets/fundo1.png'); 
+  background-size: cover; 
   height: 10vh;
   width: 100%;
   box-shadow: 0 0 5px #4b3e23;
@@ -24,7 +24,7 @@ body {
 .barra p {
   font-family: Tahoma;
   font-size: 2vw;
-  color: #4b3e23;
+  color: #ffffff;
   font-weight: 600;
   padding: 0 2vw;
   text-align: justify;
@@ -38,7 +38,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2vw;
   font-weight: 600;
-  color: mediumblue;
+  color: rgb(255, 255, 255);
   border-radius: 2vw;
   padding: 0 2vw;
   text-decoration: none;
