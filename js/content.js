@@ -2,13 +2,12 @@ export const quizData = [
     {
       question:
         "Sora é um estudante do ensino médio normal. Ele começa mais um dia escolar. Se levanta e vai tomar um banho gelado para se despertar. Qual hormônio liberado?",
-      answer: {
+     item: {
         a: "Prolactina",
         b: "Cortisol",
         c: "Testoterona",
         d: "Adrenalina",
       },
-      correct: "b",
       scene: "/Assets/Scenes/soraBath.gif",
       video: "https://www.youtube.com/embed/Wy3QMieyN_Q",
     },
