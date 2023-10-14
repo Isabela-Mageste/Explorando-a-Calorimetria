@@ -25,10 +25,58 @@ const j_text = document.getElementById("text_j");
 //const submitButton = document.getElementById("submit");
 
 function linkPressionado(numero) {
-  const selectedPage = 0;
+  switch (escolha) {
+    case 1:
+        var selectedPage = 1;
+        break;
+    case 2: 
+        var selectedPage = 2;
+        break;
+    case 3: 
+        var selectedPage = 3;
+        break;
+    case 4: 
+        var selectedPage = 4;
+        break;
+    case 5: 
+        var selectedPage = 5;
+        break;
+    case 6: 
+        var selectedPage = 6;
+        break;
+    case 7: 
+        var selectedPage = 7;
+        break;
+    case 8: 
+        var selectedPage = 8;
+        break;
+    case 9: 
+        var selectedPage = 9;
+        break;
+    case 10: 
+        var selectedPage = 10;
+        break;
+    case 11: 
+        var selectedPage = 11;
+        break;
+    case 12: 
+        var selectedPage = 12;
+        break;
+    case 13: 
+        var selectedPage = 13;
+        break;
+    case 14: 
+        var selectedPage = 14;
+        break;
+    case 15: 
+        var selectedPage = 15;
+        break;
+    case 16: 
+        var selectedPage = 16;
+        break;
 }
-
-// Funcao que carrega a pergunta e as respostas do quiz
+}
+ 
 const loadPage = () => {
   // Inicio da funcao
 
