@@ -1,4 +1,4 @@
-export const quizData = [
+export const data = [
     {
       titulo:"Calor específico dos metais" ,
       figura: "/assets/metais.jpg",

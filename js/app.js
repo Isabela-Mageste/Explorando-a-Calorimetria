@@ -1,4 +1,4 @@
- import { quizData } from "/js/content.js";
+ import { data } from "/js/content.js";
 
 // Declaracao de variaveis para localizacao de partes do HTML
 const titulo = document.querySelector(".titulo");
@@ -22,15 +22,9 @@ const j_text = document.getElementById("text_j");
 
 
 // if-else que redireciona para as páginas 
-//const submitButton = document.getElementById("submit");
-
-function botao(numero) {
-  loadPage(numero);
-};
- 
 const loadPage = (selectedPage) => {
   // Inicio da funcao
-  const currentData = quizData[selectedPage];
+  const currentData = data[selectedPage];
 
   titulo.innerHTML = currentData.titulo;
   figura.innerHTML = `<img src="${currentData.figura}"/>`; // Troca a imagem da cena de acordo com a cena
