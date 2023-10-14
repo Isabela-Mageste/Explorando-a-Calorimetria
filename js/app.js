@@ -21,10 +21,8 @@ const i_text = document.getElementById("text_i");
 const j_text = document.getElementById("text_j");
 
 
-// if-else que redireciona para as páginas 
-const loadPage = (selectedPage) => {
-  // Inicio da funcao
-  const currentData = data[selectedPage];
+function loadPage(selectedPage){
+  const currentData = data[selectedPage - 1];
 
   titulo.innerHTML = currentData.titulo;
   figura.innerHTML = `<img src="${currentData.figura}"/>`; // Troca a imagem da cena de acordo com a cena
