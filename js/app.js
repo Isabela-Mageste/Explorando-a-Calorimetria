@@ -1,11 +1,12 @@
  import { quizData } from "/js/content.js";
 
 // Declaracao de variaveis para localizacao de partes do HTML
-const questionScene = document.querySelector(".quiz-scene");
-const quiz = document.querySelector(".quiz-container");
-const questionElement = document.querySelector(".quiz-header");
-const answerElements = document.querySelectorAll(".answer");
-const questionNumber = document.querySelector("title");
+const titulo = document.querySelector(".titulo");
+const figura = document.querySelector(".figura");
+const resumo = document.querySelector("resumo");
+const item = document.querySelectorAll(".item");
+const procedimento = document.querySelector(".procedimento");
+const video = document.querySelector(".video");
 
 // Declaracao de variaveis para localizacao das respostas
 const a_text = document.getElementById("text_a");
@@ -20,62 +21,38 @@ const i_text = document.getElementById("text_i");
 const j_text = document.getElementById("text_j");
 
 
-// Botao para mudar a pergunta
-const submitButton = document.getElementById("submit");
+// if-else que redireciona para as páginas 
+//const submitButton = document.getElementById("submit");
 
-// Variaveis para o timer
-const display = document.querySelector(".timer");
-let timer;
-
-// Variaveis que contam qual a questao atual e quantos pontos marcados
-let currentQuiz = 0;
-let score = 0;
-
-// Funcao para deselecionar as repostas
-const deselectAnswers = () => {
-  // Inicio da funcao
-  answerElements.forEach((answer) => (answer.checked = false));
-};
-// Fim da funcao
-
-// Funcao para armazenar qual resposta foi marcada
-const getSelected = () => {
-  // Inicio da funcao
-  let answer;
-
-  answerElements.forEach((answerElements) => {
-    if (answerElements.checked) {
-      answer = answerElements.id;
-    }
-  });
-
-  return answer;
-};
-// Fim da funcao
+function linkPressionado(numero) {
+  const selectedPage = 0;
+}
 
 // Funcao que carrega a pergunta e as respostas do quiz
-const loadQuiz = () => {
+const loadPage = () => {
   // Inicio da funcao
-  deselectAnswers();
 
-  const currentQuizData = quizData[currentQuiz];
+  const currentData = quizData[selectedPage];
 
-  questionNumber.innerHTML = `STN - Fase ${currentQuiz + 1}`; // Muda o titulo da pagina de acordo com o numero da questao
-  questionScene.innerHTML = `<img src="${currentQuizData.scene}"/>`; // Troca a imagem da cena de acordo com a cena
-  questionElement.innerHTML = currentQuizData.question; // Carrega a pergunta
+  titulo.innerHTML = currentData.titulo;
+  figura.innerHTML = `<img src="${currentData.figura}"/>`; // Troca a imagem da cena de acordo com a cena
+  resumo.innerHTML = currentData.resumo; 
 
   // Carrega as repostas para a pergunta
-  a_text.innerText = currentQuizData.answer.a;
-  b_text.innerText = currentQuizData.answer.b;
-  c_text.innerText = currentQuizData.answer.c;
-  d_text.innerText = currentQuizData.answer.d;
-  e_text.innerText = currentQuizData.answer.e;
-  f_text.innerText = currentQuizData.answer.f;
-  g_text.innerText = currentQuizData.answer.g;
-  h_text.innerText = currentQuizData.answer.h;
-  i_text.innerText = currentQuizData.answer.i;
-  j_text.innerText = currentQuizData.answer.j;
+  a_text.innerText = currentData.item.a;
+  b_text.innerText = currentData.item.b;
+  c_text.innerText = currentData.item.c;
+  d_text.innerText = currentData.item.d;
+  e_text.innerText = currentData.item.e;
+  f_text.innerText = currentData.item.f;
+  g_text.innerText = currentData.item.g;
+  h_text.innerText = currentData.item.h;
+  i_text.innerText = currentData.item.i;
+  j_text.innerText = currentData.item.j;
  
+  procedimento.innerHTML = currentData.procedimento;
+
+  video.innerHTML = `<iframe src="${currentData.video}"/>`;
 
 };
 // Fim da funcao
