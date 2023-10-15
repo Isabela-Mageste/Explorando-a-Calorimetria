@@ -1,5 +1,24 @@
 export const data = [
   {
+    titulo: "Termometro Caseiro",
+    figura: "/assets/termometro.jfif",
+    resumo: " ",
+    item: {
+      a: "Garrafa de plástico pequena",
+      b: "Água colorida",
+      c: "Canudo de plástico",
+      d: "Supercola ou fita adesiva",
+      e: "Marcador ou etiquetas para a escala",
+      f: null,
+      g: null,
+      h: null,
+      i: null,
+      j: null,
+    },
+      procedimento:"1- Lave e seque bem a garrafa de plástico.<br>2 - Encha cerca de um quarto da garrafa com água colorida. Isso servirá como o líquido dentro do termômetro.<br>3 - Coloque o canudo dentro da garrafa, deixando-o submerso na água, mas não encostando no fundo.<br> 4 - Cole o canudo na posição com supercola ou use fita adesiva para mantê-lo no lugar.<br> 5 - Marque a posição inicial da água no canudo com um marcador ou etiqueta. Isso será a referência para a temperatura ambiente.<br> 6 - Coloque o termômetro em diferentes condições de temperatura para observar como a água sobe ou desce no canudo. Marque as diferentes posições da água com o marcador ou etiquetas.<br> 7 - Agora você tem um termômetro caseiro simples!",
+    video: "https://www.youtube.com/embed/Wy3QMieyN_Q",
+    },
+    {
     titulo: "Calor específico dos metais",
     figura: "/assets/metais.jpg",
     resumo: " <br>",
