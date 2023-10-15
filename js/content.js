@@ -232,7 +232,7 @@ export const data = [
     g:"",
     h: "",
     i: "",
-      j: "",
+    j: "",
   },
   procedimento: "Parte 1: Preparação<br>Meça e despeje 200 ml de água quente em um copo e em um pote plano (certifique-se de que a água nas duas fontes esteja à temperatura ambiente).<br>Parte 2: Medição da Temperatura Inicial<br>Meça e registre a temperatura inicial da água nos dois recipientes usando o termômetro. Certifique-se de registrar a temperatura inicial de ambos simultaneamente.<br>Parte 3: Resfriamento da Água<br>Coloque o copo e o pote plano em um local onde a temperatura ambiente seja constante (evite correntes de ar).<br>Inicie o cronômetro. A intervalos regulares (por exemplo, a cada 5 minutos), meça e registre a temperatura da água em cada recipiente.<br>Continue medindo até que a temperatura da água em ambos os recipientes atinja um valor significativamente mais baixo, ou até que não ocorra mais mudança de temperatura após várias medições.<br>Parte 4: Análise de Resultados<br>Observe e registre o tempo necessário para que a temperatura da água em cada recipiente alcance um valor específico (por exemplo, 10°C abaixo da temperatura inicial). Analise as diferenças nos tempos de resfriamento e na taxa de resfriamento entre os dois recipientes. Discuta como a forma e a superfície de contato com o ambiente podem afetar a taxa de resfriamento da água.",
   video: " ",
