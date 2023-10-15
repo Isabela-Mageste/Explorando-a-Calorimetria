@@ -255,7 +255,7 @@ export const data = [
   },
   procedimento: "Parte 1: Preparação<br>Encha a panela com água suficiente para submergir totalmente as colheres.<br>Coloque o termômetro na panela para monitorar a temperatura da água.<br>Coloque as colheres (uma de metal e uma de madeira) ao lado da panela.<br>Parte 2: Aquecimento das Colheres<br>Ligue o fogão ou a placa de aquecimento em fogo médio.<br>Coloque as duas colheres na água quente na panela ao mesmo tempo.<br>Inicie o cronômetro para registrar o tempo.<br>Parte 3: Medição da Temperatura<br>Monitore a temperatura da água na panela usando o termômetro.<br>Registre a temperatura da água a intervalos regulares (por exemplo, a cada minuto) durante um período de tempo definido (por exemplo, 5 minutos).<br>Parte 4: Análise de Resultados<br>Compare as mudanças de temperatura das colheres de metal e de madeira ao longo do tempo.<br>Discuta como as colheres de metal, sendo boas condutoras de calor, absorvem calor mais rapidamente da água quente e, portanto, aumentam sua temperatura mais rapidamente em comparação com a colher de madeira.<br>Explique como a capacidade de condução de calor está relacionada ao material das colheres e como isso afeta seu comportamento quando aquecidas.",
   video: " ",
-}
+},
 {
   titulo: "Variação de Temperatura de Misturas",
   figura: "assets/variacao.jpg",
