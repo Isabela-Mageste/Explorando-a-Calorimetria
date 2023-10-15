@@ -126,7 +126,7 @@ span {
   flex-direction: column;
 }
 .Item {
-  width: 70vw;
+  max-width: 80%;
   min-height: 22vw;
   border-radius: 10px;
   border-style: none;
@@ -144,9 +144,7 @@ span {
 .Item li {
   font-size: 1.4vw;
 }
-.Item img {
-  margin: 0% 0% 0% 30%;
-}
+
 .formula-block {
   background-color: #a8dd7c;
   padding: 20px;
@@ -167,5 +165,12 @@ span {
 }
 
 .figura {
-  margin: 0% 0% 0% 30%;
+  box-align:center;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+}
+.figura img{
+  margin: 5% 50% 5% 50%;
+  max-width:30vw;
 }
