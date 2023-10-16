@@ -120,7 +120,7 @@ export const data = [
     },
     procedimento:
       "Parte 1: Preparação<br>Prepare todos os objetos(colheres) em temperatura ambiente. Certifique-se de tomar cuidado para manusear os materiais durante o experimento. Certifique-se da presença de um adulto responsável. <br><br>Parte 2: Teste de Condução de Calor<br>Meça a temperatura inicial da colher de metal e registre no papel. Mergulhe a colher no copo de água quente por cerca de 1 minuto - proteja sua mão com o pano Remova a colher do calor, meça a temperatura dela e registre no papel.Coloque a colher em um recipiente com água fria.Registre o tempo que a colher demora para esfriar até os 20 °C. <br><br>Parte 3: Teste de Isolantes Térmicos<br>Meça a temperatura inicial da colher de madeira e registre no papel. Mergulhe a colher no copo de água quente até que ela alcance a mesma temperatura que a colher de metal quando aquecida - proteja sua mão com o pano! Remova a colher do calor e registre no papel o tempo que ela levou para chegar até aquela temperatura.Coloque a colher em um recipiente com água fria.Registre o tempo que a colher demora para esfriar até os 20 °C.<br>Análise de Resultados:<br>1-Compare os tempos de aquecimento e  resfriamento da colher  metálica com o da colher de madeira.Você percebeu como os materiais metálicos, sendo condutores de calor, resfriam mais rapidamente do que os materiais isolantes?<br>2- Explique a diferença entre materiais condutores e isolantes, com base  no experimento e usando suas próprias palavras",
-    video: "",
+    video: "https://youtu.be/ySIZdwTZH_w?si=-ceR0TIe35Um6VWu",
   },
   {
     titulo: "Calorímetro",
@@ -139,7 +139,7 @@ export const data = [
       j: "",
     },
     procedimento: "Parte 1: Montagem do Calorímetro<br>Com a ajuda de um adulto, corte a parte superior da lata de metal. O resultado deve parecer com um copo.<br>Lave a lata, tomando cuidado com a borda cortada, pois ela é muito cortante.<br>Peça para um adulto dobrar um pouco das beiradas, para que o manuseio da lata se torne mais seguro<br><br>Agora, prepare o isopor. Corte uma caixa a partir dele que cubra completamente a lata, sem sobrar espaços. Siga as instruções do vídeo abaixo em caso de dúvida.<br>Com uma fita adesiva, prenda as peças de isopor na posição correta<br>Se não for possível usar o isopor, faça os passos acima com papelão, colando duas placas, uma sobre a outra, para ter um melhor efeito. (não passe fita na tampa!)<br><br>Após a caixa completa e a lata posicionada, faça um furo na tampa para colocar o termômetro.<br>Agora, na simulação, teste o aumento de temperatura.<br>O que acontece com a pressão?<br>O que acontece com as partículas dentro do calorímetro?<br>O que acontece com o volume?",
-    video: " ",
+    video: "https://youtu.be/ydmT3dPKs9Y?si=zaaZc7D3dLmheX7l",
 },
 {
   titulo: "Testes com Calorímetro",
@@ -158,7 +158,7 @@ export const data = [
       j: "",
   },
   procedimento: "Encha o calorímetro com 200 ml de água e meça a temperatura inicial.<br>Mergulhe a pedra em água quente por 1 minuto, retire-a com a ajuda de uma colher, e coloque-a na água dentro do calorímetro.<br>Registre a temperatura da água no calorímetro após 1 minuto e, em um tempo determinado, registre novamente a temperatura.<br>Calcule a variação de temperatura da água no calorímetro para cada substância de teste usando a fórmula Q = mcΔT, onde Q é a quantidade de calor transferida, m é a massa da substância, c é a capacidade térmica da água (4,18 J/g°C), e ΔT é a variação de temperatura (temperatura final - temperatura inicial).",
-  video: " ",
+  video: "https://youtu.be/UZhhqtk4rbA?si=RyJQ69OXv0HyVokg",
 },
 {
   titulo: "Calor Latente",
@@ -177,7 +177,7 @@ export const data = [
       j: "",
   },
   procedimento: "Parte 1: Medição da Temperatura Inicial<br>1. Coloque um cubo de gelo no copo de medição.<br>2. Meça e registre a temperatura inicial do gelo usando o termômetro.<br>Parte 2: Fusão do Gelo<br>1. Coloque o gelo do copo de medição em uma panela.<br>2. Aqueça a panela no fogão ou placa de aquecimento em fogo baixo.<br>3. Continue aquecendo o gelo até que ele derreta completamente.\n4. Registre o tempo que leva para todo o gelo derreter.<br><br>Parte 3: Medição da Temperatura Final<br>Após a fusão completa do gelo, meça e registre a temperatura da água resultante na panela.<br><br>Análise de Resultados:<br>1. Calcule a variação de temperatura (ΔT) entre a temperatura final e a temperatura inicial da água (ΔT = Temperatura Final - Temperatura Inicial).<br>2. Use a fórmula Q = m * L, onde Q é o calor latente da fusão, m é a massa de gelo derretido e L é o calor latente da fusão da água (aproximadamente 334 J/g).<br>3. Calcule o calor latente da fusão do gelo usando a massa de gelo e a variação de temperatura medida.<br>4. Compare o valor calculado com o valor conhecido do calor latente da fusão da água (334 J/g) e discuta qualquer diferença observada.",
-  video: " ",
+  video: "https://youtu.be/op5vkU5srAM?si=Wmxucg65R-NFEyrZ",
 },
 {
   titulo: "Calor Específico",
@@ -196,7 +196,7 @@ export const data = [
       j: "",
   },
   procedimento: "Parte 1: Preparação<br><br>1. Coloque uma quantidade conhecida de água no copo de medição (por exemplo, 200 ml).<br>2. Meça e registre a temperatura inicial da água usando o termômetro.<br><br>Parte 2: Aquecimento da Água<br><br>1. Despeje a água do copo de medição em uma panela.<br>2. Aqueça a água na panela no fogão ou placa de aquecimento em fogo baixo.<br>3. Continue aquecendo a água e registre o tempo que leva para aumentar sua temperatura em uma quantidade específica (por exemplo, 10°C).<br><br>Parte 3: Medição da Temperatura Final<br><br>1. Após a água atingir a variação de temperatura desejada (por exemplo, 10°C a mais que a temperatura inicial), meça e registre a temperatura final da água.<br><br>Análise de Resultados<br><br>1. Calcule a variação de temperatura (ΔT) entre a temperatura final e a temperatura inicial da água (ΔT = Temperatura Final - Temperatura Inicial).<br>2. Use a fórmula Q = m * c * ΔT, onde Q é o calor transferido para a água, m é a massa de água aquecida e c é o calor específico da água (aproximadamente 4,18 J/g°C).<br>3. Calcule o calor específico da água usando a massa de água, a variação de temperatura medida e a quantidade de calor transferida.<br>4. Compare o valor calculado com o valor conhecido do calor específico da água (4,18 J/g°C) e discuta qualquer diferença observada.",
-  video: " ",
+  video: "https://youtu.be/Nh-7P0q1iuc?si=zMjfIWgtfEqFz5jC",
 }
 ,
 {
@@ -216,10 +216,10 @@ export const data = [
       j: "",
   },
   procedimento: "Parte 1: Preparação\n\n1. Quebre ou corte o chocolate em pedaços pequenos e uniformes para facilitar o derretimento.\n2. Prepare o termômetro para medir a temperatura.\n\nParte 2: Derretendo o Chocolate\n\n1. Encha uma panela com água até cerca de um terço de sua capacidade.\n2. Coloque a panela no fogão ou placa de aquecimento e ligue-o em fogo baixo.\n3. Espere até que a água comece a aquecer, mas não deixe ferver.\n4. Coloque uma tigela resistente ao calor sobre a panela para criar um banho-maria improvisado.\n5. Adicione os pedaços de chocolate na tigela.\n6. Mexa suavemente o chocolate com uma espátula de silicone ou colher de metal enquanto ele derrete.\n7. Use o termômetro para medir a temperatura do chocolate em intervalos regulares.\n\nParte 3: Registro de Observações\n\n1. Registre a temperatura inicial do chocolate antes de começar a aquecer.\n2. Continue aquecendo e mexendo o chocolate até que ele esteja completamente derretido e atinja uma consistência suave.\n3. Registre a temperatura do chocolate quando estiver completamente derretido.\n4. Pare de aquecer o chocolate e desligue o fogão ou a placa de aquecimento.\n\nParte 4: Análise de Resultados\n\n1. Calcule a variação de temperatura (ΔT) entre a temperatura final e a temperatura inicial do chocolate.\n2. Discuta como o chocolate passou do estado sólido para o líquido à medida que aqueceu e atingiu seu ponto de derretimento.\n3. Explore a ideia de que diferentes tipos de chocolate podem ter pontos de derretimento ligeiramente diferentes, dependendo de sua composição.\n\nParte 5: Experimento Adicional (Opcional)\n\n1. Se desejar, despeje o chocolate derretido em um prato.\n2. Coloque o prato na geladeira para que o chocolate endureça novamente.\n3. Compare a textura e o sabor do chocolate derretido com o chocolate endurecido.",
-  video: " ",
+  video: "https://youtu.be/4lXxQ0HrALk?si=UiAREx814e3CfDwz",
 },
 {
-  titulo: "Variação de Misturas",
+  titulo: "Misturas",
   figura: "/assets/mistura.webp",
   resumo: "Quando a água é misturada com sal, tanto o ponto de ebulição quanto o ponto de congelamento da água são afetados, resultando em um aumento da temperatura de ebulição e em uma diminuição da temperatura de congelamento em relação à água pura. Em outras palavras, as misturas de água e sal apresentam um ponto de ebulição mais alto e um ponto de congelamento mais baixo do que a água pura.<br><br>A adição de sal à água interrompe as ligações de hidrogênio entre as moléculas de água, tornando mais difícil para elas mudarem de estado. Isso significa que é necessário aquecer a água a uma temperatura mais alta do que 100°C (ponto de ebulição da água pura a nível do mar) para que ela entre em ebulição quando há sal dissolvido. Da mesma forma, a água salgada congela a temperaturas mais baixas do que 0°C (ponto de congelamento da água pura), tornando-se líquida em temperaturas negativas.",
   item: {
@@ -235,7 +235,7 @@ export const data = [
       j: "",
   },
   procedimento: "Parte 1: Ponto de Ebulição\n\nAquecimento da Água Pura:\n1. Encha uma panela com 200ml de água e coloque-a no fogão.\n2. Aqueça a água até que ela comece a ferver.\n3. Registre a temperatura da água quando começar a ferver e observe o processo.\n\nAquecimento da Água com Sal:\n1. Limpe a panela usada anteriormente e encha-a novamente com 200ml de água.\n2. Adicione uma colher de sopa de sal de cozinha à água.\n3. Aqueça a água com sal até que ela comece a ferver.\n4. Registre a temperatura da água com sal quando começar a ferver e observe o processo.\n\nParte 2: Ponto de Congelamento\n\nCongelamento da Água Pura:\n1. Encha um copo ou recipiente com água pura.\n2. Coloque-o no freezer e aguarde até que a água esteja completamente congelada.\n3. Registre a temperatura do congelamento da água (geralmente próximo a 0°C).\n\nCongelamento da Água com Sal:\n1. Encha outro copo ou recipiente com água e adicione a mesma quantidade de sal de cozinha usada anteriormente.\n2. Coloque-o no freezer e aguarde até que a água com sal esteja completamente congelada.\n3. Registre a temperatura do congelamento da água com sal e observe qualquer diferença.\n\nAnálise de Resultados:\nCompare as temperaturas de ebulição e congelamento da água pura e da água com sal.\nDiscuta como a adição de sal afeta os pontos de ebulição e congelamento da água.\nExplique os conceitos por trás dessas mudanças, relacionando-as com a diminuição da pressão de vapor e a mudança na estrutura das moléculas de água devido à presença do sal.",
-  video: " ",
+  video: "https://youtu.be/Jdw9VeN5glo?si=su3SremtZtyN2zMW",
 },
 {
   titulo: "Resfriamento ",
@@ -254,7 +254,7 @@ export const data = [
     j: "",
   },
   procedimento: "Parte 1: Preparação<br>Meça e despeje 200 ml de água quente em um copo e em um pote plano (certifique-se de que a água nas duas fontes esteja à temperatura ambiente).<br>Parte 2: Medição da Temperatura Inicial<br>Meça e registre a temperatura inicial da água nos dois recipientes usando o termômetro. Certifique-se de registrar a temperatura inicial de ambos simultaneamente.<br>Parte 3: Resfriamento da Água<br>Coloque o copo e o pote plano em um local onde a temperatura ambiente seja constante (evite correntes de ar).<br>Inicie o cronômetro. A intervalos regulares (por exemplo, a cada 5 minutos), meça e registre a temperatura da água em cada recipiente.<br>Continue medindo até que a temperatura da água em ambos os recipientes atinja um valor significativamente mais baixo, ou até que não ocorra mais mudança de temperatura após várias medições.<br>Parte 4: Análise de Resultados<br>Observe e registre o tempo necessário para que a temperatura da água em cada recipiente alcance um valor específico (por exemplo, 10°C abaixo da temperatura inicial). Analise as diferenças nos tempos de resfriamento e na taxa de resfriamento entre os dois recipientes. Discuta como a forma e a superfície de contato com o ambiente podem afetar a taxa de resfriamento da água.",
-  video: " ",
+  video: "https://youtu.be/Hd4fDE91III?si=xxhAj6lsjV0a7V6g",
 },
 {
   titulo: "Aquecimento",
@@ -273,7 +273,7 @@ export const data = [
       j: "",
   },
   procedimento: "Parte 1: Preparação<br>Encha a panela com água suficiente para submergir totalmente as colheres.<br>Coloque o termômetro na panela para monitorar a temperatura da água.<br>Coloque as colheres (uma de metal e uma de madeira) ao lado da panela.<br>Parte 2: Aquecimento das Colheres<br>Ligue o fogão ou a placa de aquecimento em fogo médio.<br>Coloque as duas colheres na água quente na panela ao mesmo tempo.<br>Inicie o cronômetro para registrar o tempo.<br>Parte 3: Medição da Temperatura<br>Monitore a temperatura da água na panela usando o termômetro.<br>Registre a temperatura da água a intervalos regulares (por exemplo, a cada minuto) durante um período de tempo definido (por exemplo, 5 minutos).<br>Parte 4: Análise de Resultados<br>Compare as mudanças de temperatura das colheres de metal e de madeira ao longo do tempo.<br>Discuta como as colheres de metal, sendo boas condutoras de calor, absorvem calor mais rapidamente da água quente e, portanto, aumentam sua temperatura mais rapidamente em comparação com a colher de madeira.<br>Explique como a capacidade de condução de calor está relacionada ao material das colheres e como isso afeta seu comportamento quando aquecidas.",
-  video: " ",
+  video: "https://youtu.be/H99synPKR-4?si=hP7IA7qEisrlPgMT",
 },
 {
   titulo: "Variação de Temperatura de Misturas",
@@ -292,6 +292,6 @@ export const data = [
     j:"",
   },
   procedimento: "Parte 1: Preparação<br>Encha um copo com água à temperatura ambiente.<br>Encha outro copo com o líquido escolhido à temperatura ambiente.<br>Certifique-se de que ambos os líquidos estão à mesma temperatura inicial.<br>Parte 2: Medição da Temperatura Inicial<br>Meça e registre a temperatura inicial da água usando o termômetro.<br>Meça e registre a temperatura inicial do outro líquido usando o termômetro.<br>Anote as temperaturas iniciais em seu registro.<br>Parte 3: Mistura dos Líquidos<br>Despeje o líquido do segundo copo (por exemplo, suco) no copo com água.<br>Mexa suavemente os líquidos para garantir uma mistura uniforme.<br>Parte 4: Medição da Temperatura Final<br>Meça e registre a temperatura final da mistura usando o termômetro.<br>Anote a temperatura final em seu registro.<br>Parte 5: Análise de Resultados<br>Compare as temperaturas iniciais e finais da água e do outro líquido antes e depois da mistura.<br>Discuta como a mistura afetou a temperatura resultante, se houve uma mudança e se a temperatura final ficou entre as temperaturas iniciais dos líquidos.",
-  video: " ",
+  video: "https://youtu.be/XvfPQ-U8HN8?si=vKgJBiR76y2ma1Zv",
 }
 ];
