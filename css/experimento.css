@@ -166,6 +166,14 @@ span {
   }
 }
 
+
 .figura {
-  margin: 0% 0% 0% 30%;
+  box-align:center;
+  align-items: center;
+  display: flex; 
+  justify-content: center;
+}
+.figura img{
+  margin: 5% 50% 5% 50%;
+  max-width:30vw;
 }

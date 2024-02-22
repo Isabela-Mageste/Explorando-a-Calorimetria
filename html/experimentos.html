@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/Estilo.css" />
     <link rel="stylesheet" href="/css/Experimento.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
 
-    <script defer src="../js/app.js" type="module"></script>
-    <script defer src="../js/content.js" type="module"></script>
+    <script defer src="/js/app.js" type="module"></script>
+    <script defer src="/js/content.js" type="module"></script>
 
     <title>Explorando Calorimetria</title>
   </head>
-  <body bgcolor="#FFF3DA">
+  <body bgcolor="#FFF3DA" class="page">
     <div class="barra">
       <img class="imagemLogo" src="/assets/Logo.png" alt="Logo" />
       <p>Explorando Calorimetria</p>
@@ -35,14 +31,11 @@
     <div class="Item-container">
       <div class="Item">
         <div class="Item-description">
-          <img class="figura" src="#" alt="imagem aqui" style="max-width: 25vw" />
+          <div class="figura">
+            <img src="#" alt="imagem aqui" style="max-width: 25vw" />
+          </div>
 
-          <p class="resumo">
-            <br>
-            texto texto texte<br>
-            texto texto 
-            <br>
-          </p>
+          <p class="resumo"></p>
 
           <p><span>Itens necessários</span></p>
           <ul class="checklist">
@@ -88,25 +81,21 @@
             </li>
           </ul>
 
-          <p class="procedimento">
-            <span>Procedimento:</span><br>
-            texto texto texte<br>
-            texto texto 
-            <br>
-          </p>
+          <p><span>Procedimento:</span></p>
+          <p class="procedimento">Procedimento:<br /></p>
 
           <p><span>Vídeo demonstrativo</span></p>
           <div class="video-container-3">
             <div class="video-wrapper">
               <iframe
+                src="#"
                 width="900vw"
                 height="500vw"
-                src="#"
                 title="YouTube video player"
                 frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-          gyroscope; picture-in-picture; web-share"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
+                class="video"
               ></iframe>
             </div>
           </div>

@@ -10,6 +10,7 @@ body {
 
 .barra {
   background-image: url('/assets/fundo1.png'); 
+  background: linear-gradient(90deg, rgba(255,241,208,1) 0%, rgba(255,181,74,1) 44%, rgba(221,80,0,1) 100%);
   background-size: cover; 
   height: 10vh;
   width: 100%;
@@ -19,6 +20,7 @@ body {
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 1000;
 }
 
 .barra p {

@@ -35,6 +35,14 @@ body {
   min-height: 100%;
   position: absolute;
   border-radius: 25px;
+  transition: 1s;
+}
+.figura:hover{
+  transition: 0.5s linear;
+  position:fixed;
+ 
+  min-width: 105%;
+  min-height: 105%;
 }
 .conteudo {
   width: 58vw;
