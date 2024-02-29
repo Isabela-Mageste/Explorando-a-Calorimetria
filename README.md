@@ -1,2 +1,1 @@
-# Projeto-Meta
-projeto para o Meta feito por Isabela Mageste e Sarah Rabelo, orientado pelo professor Alisson Rodrigo do Centro Federal de Educação Tecnológica de Minas Gerais
+ Plataforma abrangente e acessível para o aprendizado de Física, especialmente direcionada a estudantes sem conhecimento prévio e com recursos financeiros limitados.
